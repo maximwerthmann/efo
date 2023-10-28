@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         <div className='flex flex-col p-8 bg-gray-900/70 backdrop-blur-md space-y-16 max-w-[750px] rounded-2xl absolute right-8 bottom-8'>
         <div className='flex items-center justify-center space-x-8'>
-          <span className='text-red-500'>Hier geht's zur unserem Schwesterverein:<br/> Eisenbahnfreunde Grenzland eV</span>
+          <span className='text-red-500'>Hier geht&apos;s zur unserem Schwesterverein:<br/> Eisenbahnfreunde Grenzland eV</span>
             <Link href={'https://eisenbahnfreunde-grenzland.de/'} className='py-2 px-8 text-center bg-white rounded-md text-black font-bold hover:bg-gray-300 transition-colors duration-200 flex space-x-2 items-center'>
             <span>Zur</span>
               <Image height={36} width={40} alt='efg-logo' src={'/EFG_Logo.png'} />

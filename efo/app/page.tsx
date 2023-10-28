@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col items-center justify-between ${cooper.className}`}>
       <header className='h-24 w-full flex items-center px-24 justify-between bg-white'>
-        <Image height={100} width={300} alt='efo-logo' src='/Logo.svg' />
+        <Image height={100} width={500} alt='efo-logo' src='/Logo.svg' className='pt-24' />
         <div className='flex flex-col'>
           <span className='text-black font-bold text-xl'>Eisenbahnfreunde Ostbelgien VoG*</span>
           <span className='text-black font-bold text-right'>*VoG in Gründung</span>

@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Eisenbahn-freunde Ostbelgien',
   description: '',
+  icons: {icon: '/EFO_Logo.svg'}
 }
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
 "use client";
 
-import { AlertTriangle, ArrowRight, Megaphone } from "lucide-react";
+import { ArrowRight, Megaphone } from "lucide-react";
 import Link from "next/link";
 
 import Countdown from "react-countdown";
@@ -25,10 +25,10 @@ export default function Announcement() {
 
 
   return (
-    <div className="w-full h-12 bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 duration-500 text-white flex flex-col space-x-16 px-4 text-sm">
-      <div className="h-12 w-full flex items-center justify-between">
+    <div className="w-full h-12 bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 duration-500 text-white flex items-center justify-between px-4 text-sm">
+
         <div className="flex items-center space-x-2">
-          <AlertTriangle size={20} />
+          <Megaphone size={20} />
           <span>Allgemeine Mitteilung</span>
         </div>
         <div className="flex items-center space-x-4">
@@ -50,9 +50,6 @@ export default function Announcement() {
           <ArrowRight size={20} />
         </Link>
       </div>
-      <div className="flex-1 flex items-center justify-center">
-        
-      </div>
-    </div>
+
   );
 }

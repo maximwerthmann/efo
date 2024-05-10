@@ -16,7 +16,7 @@ export default function BetaAnnouncement() {
           <span>Sie befinden sich zurzeit auf der test-seite der EFO, einige links und funktionen der seite könnten möglicherweise nicht richtig funktionieren!</span>
         </div>
         <Link
-          href={"https://eisenbahnfreunde-grenzland.de"}
+          href={"https://ef-o.be"}
           className="flex items-center space-x-2 underline"
         >
           <span>Zurück zur hauptseite</span>

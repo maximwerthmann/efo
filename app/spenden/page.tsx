@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <main className="flex-1 flex items-center justify-center">
       <div className="flex flex-col space-y-4 max-w-[750px]">
-        <h2>Spenden</h2>
+        <h3>Spenden</h3>
         <p>
           Spenden dürfen sie natürlich auch. 😊 Wie jeder Verein sind auch wir
           auf Spenden angewiesen, um unsere Ziele zu verwirklichen. Wir danken
@@ -18,8 +18,11 @@ export default function Page() {
             <CardHeader>
                 <CardTitle>Kontoverbindung</CardTitle>
             </CardHeader>
-            <CardContent>
-                
+            <CardContent className="flex flex-col">
+                <span>KBC Eupen</span>
+                <span>Eisenbahnfreunde Ostbelgien VoG</span>
+                <span><span className="text-foreground font-bold">IBAN</span> BE59 7340 7408 0626</span>
+                <span><span className="text-foreground font-bold">BIC</span> KREDBEBB</span>
             </CardContent>
         </Card>
       </div>

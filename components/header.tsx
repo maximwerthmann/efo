@@ -11,7 +11,6 @@ import { Badge } from "./ui/badge";
 import { ArrowRight, Github, Instagram, Linkedin, Mail, Megaphone, Menu, Sparkles, Twitter } from "lucide-react";
 import Logo from "./logo";
 import Announcement from "./announcement";
-import BetaAnnouncement from "./beta_anc";
 
 const NavigationLinks = [
   {
@@ -69,7 +68,7 @@ export default function Header() {
               <Mail size={16}/>
             </Button>
           </Link>
-          <Link href={"/kontakt"}>
+          <Link href={"/beitreten"}>
             <Button variant={'outline'} className="space-x-2">
               <span>Mitglied werden</span>
               <Sparkles size={16}/>
@@ -83,7 +82,6 @@ export default function Header() {
         </div>
       </div>
       <Announcement/>
-      <BetaAnnouncement/>
     </header>
   );
 }
